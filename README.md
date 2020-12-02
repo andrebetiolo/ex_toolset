@@ -4,13 +4,15 @@
 
 ## Installation
 
+Availible Docs in: [https://eficiencia-fiscal.github.io/ex_toolset/](https://eficiencia-fiscal.github.io/ex_toolset/)
+
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `ex_toolset` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:ex_toolset, "~> 0.1.0"}
+    {:ex_toolset, git: "https://github.com/eficiencia-fiscal/ex_toolset.git"}
   ]
 end
 ```
