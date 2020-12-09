@@ -25,7 +25,7 @@ defmodule ExToolset.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: [:logger, :xmerl]
     ]
   end
 
@@ -34,7 +34,8 @@ defmodule ExToolset.MixProject do
     [
       {:ex_doc, "~> 0.22.0", only: :dev, runtime: false},
       {:joken, "~> 2.0"},
-      {:jason, "~> 1.1"}
+      {:jason, "~> 1.1"},
+      {:hackney, "~> 1.16"},
     ]
   end
 end
